@@ -1,7 +1,7 @@
 ---
-title: "Latvian Diaspora Press Published in English-Speaking Countries in the Second Half of the 20th Century"
-author: "Timur Mitrofanov"
-date: "June 25, 2026"
+title: "Evaluating BERTopic N-gram Configurations on Latvian Exile Press (1940s–2000s): the Coherence Paradox"
+author: "Dr. Simon Donig, Dr. Dinara Gagarina, Timur Mitrofanov"
+date: "September 17, 2026"
 format:
   revealjs:
     theme: white
@@ -11,7 +11,7 @@ format:
     controls: true
     width: 1400
     height: 800
-    footer: "Latvian Diaspora Press Published in English-Speaking Countries in the Second Half of the 20th Century · Timur Mitrofanov"
+    footer: "Evaluating BERTopic N-gram Configurations on Latvian Exile Press (1940s–2000s): the Coherence Paradox"
     embed-resources: false
 ---
 
