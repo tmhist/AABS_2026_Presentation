@@ -14,7 +14,6 @@ format:
     footer: "Evaluating BERTopic N-gram Configurations on Latvian Exile Press (1940s–2000s): the Coherence Paradox"
     embed-resources: false
 ---
-
 ## Topic Word Scores
 
 ::: {.panel-tabset}
