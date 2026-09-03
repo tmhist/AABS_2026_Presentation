@@ -42,36 +42,43 @@ format:
 
 ### Unigram
 
+::: {style="max-height: 550px; overflow-y: auto; font-size: 0.65em;"}
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-# load and display unigram data
-library(DT)
+# load and display unigram csv with scroll
 df_uni <- read.csv("unigram_detailed_coherence_report_lemmatized.csv")
-datatable(df_uni, options = list(pageLength = 6, scrollX = TRUE, dom = 'tp'))
+knitr::kable(df_uni, format = "html")
 ```
+:::
 
 ### Bigram
 
+::: {style="max-height: 550px; overflow-y: auto; font-size: 0.65em;"}
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-# load and display bigram data
+# load and display bigram csv with scroll
 df_bi <- read.csv("bigram_detailed_coherence_report_lemmatized.csv")
-datatable(df_bi, options = list(pageLength = 6, scrollX = TRUE, dom = 'tp'))
+knitr::kable(df_bi, format = "html")
 ```
+:::
 
 ### Trigram
 
+::: {style="max-height: 550px; overflow-y: auto; font-size: 0.65em;"}
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-# load and display trigram data
+# load and display trigram csv with scroll
 df_tri <- read.csv("trigram_detailed_coherence_report_lemmatized.csv")
-datatable(df_tri, options = list(pageLength = 6, scrollX = TRUE, dom = 'tp'))
+knitr::kable(df_tri, format = "html")
 ```
+:::
 
 ### Multigram
 
+::: {style="max-height: 550px; overflow-y: auto; font-size: 0.65em;"}
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-# load and display multigram data
+# load and display multigram csv with scroll
 df_multi <- read.csv("multigram_detailed_coherence_report_lemmatized.csv")
-datatable(df_multi, options = list(pageLength = 6, scrollX = TRUE, dom = 'tp'))
+knitr::kable(df_multi, format = "html")
 ```
+:::
 
 :::
 
