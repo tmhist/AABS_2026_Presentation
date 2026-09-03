@@ -36,6 +36,45 @@ format:
 
 :::
 
+## Detailed Coherence Reports
+
+::: {.panel-tabset}
+
+### Unigram
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# load and display unigram data
+library(DT)
+df_uni <- read.csv("unigram_detailed_coherence_report_lemmatized.csv")
+datatable(df_uni, options = list(pageLength = 6, scrollX = TRUE, dom = 'tp'))
+```
+
+### Bigram
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# load and display bigram data
+df_bi <- read.csv("bigram_detailed_coherence_report_lemmatized.csv")
+datatable(df_bi, options = list(pageLength = 6, scrollX = TRUE, dom = 'tp'))
+```
+
+### Trigram
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# load and display trigram data
+df_tri <- read.csv("trigram_detailed_coherence_report_lemmatized.csv")
+datatable(df_tri, options = list(pageLength = 6, scrollX = TRUE, dom = 'tp'))
+```
+
+### Multigram
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# load and display multigram data
+df_multi <- read.csv("multigram_detailed_coherence_report_lemmatized.csv")
+datatable(df_multi, options = list(pageLength = 6, scrollX = TRUE, dom = 'tp'))
+```
+
+:::
+
 ## Hierarchical Clustering (multigram)
 
 ```{=html}
