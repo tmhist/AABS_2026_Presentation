@@ -14,6 +14,7 @@ format:
     footer: "Evaluating BERTopic N-gram Configurations on Latvian Exile Press (1940s–2000s): the Coherence Paradox"
     embed-resources: false
 ---
+
 ## Topic Word Scores
 
 ::: {.panel-tabset}
@@ -43,51 +44,61 @@ format:
 ### Unigram
 
 ::: {style="height: 580px; overflow-y: auto; font-size: 0.6em;"}
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 # read and render unigram report as standard table
 df_uni <- read.csv("unigram_detailed_coherence_report_lemmatized.csv")
 knitr::kable(df_uni)
 ```
+
 :::
 
 ### Bigram
 
 ::: {style="height: 580px; overflow-y: auto; font-size: 0.6em;"}
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 # read and render bigram report as standard table
 df_bi <- read.csv("bigram_detailed_coherence_report_lemmatized.csv")
 knitr::kable(df_bi)
 ```
+
 :::
 
 ### Trigram
 
 ::: {style="height: 580px; overflow-y: auto; font-size: 0.6em;"}
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 # read and render trigram report as standard table
 df_tri <- read.csv("trigram_detailed_coherence_report_lemmatized.csv")
 knitr::kable(df_tri)
 ```
+
 :::
 
 ### Multigram
 
 ::: {style="height: 580px; overflow-y: auto; font-size: 0.6em;"}
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 # read and render multigram report as standard table
 df_multi <- read.csv("multigram_detailed_coherence_report_lemmatized.csv")
 knitr::kable(df_multi)
 ```
+
 :::
 
 :::
 
 ## Hierarchical Clustering (multigram)
 
+
 ```{=html}
 <iframe src="nested_bertopic.html" width="100%" height="680px"
   style="border:none; border-radius:8px; background:white;" loading="lazy"></iframe>
 ```
+
 
 ## Intertopic Distance Map 
 
@@ -135,20 +146,26 @@ knitr::kable(df_multi)
 <!--
 ## Geographical and Geopolitical entities
 
+
 ```{=html}
 <iframe src="Map_timeline.html" width="100%" height="680px"
   style="border:none; border-radius:8px; background:white;" loading="lazy"></iframe>
 ```
 
+
 ## Most Mentioned Country by Month and Year
+
 ```{=html}
 <iframe src="country_mentions_interactive.html" width="100%" height="680px"
   style="border:none; border-radius:8px; background:white;" loading="lazy"></iframe>
 ```
 
+
 ## Entities identified by GLiNER 
+
 ```{=html}
 <iframe src="extracted_entities.html" width="100%" height="680px"
   style="border:none; border-radius:8px; background:white;" loading="lazy"></iframe>
 ```
+
 -->
